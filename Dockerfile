@@ -1,4 +1,4 @@
-FROM golang:1.18 AS builder
+FROM golang:latest AS builder
 MAINTAINER keyid<developer@keyid.cn>
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
